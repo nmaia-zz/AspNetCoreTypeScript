@@ -2,7 +2,7 @@
   {
     "outputFileName": "wwwroot/bundle/css/site.min.css",
     "inputFiles": [
-      "wwwroot/css/site.css"
+      "wwwroot/lib/bootstrap/css/bootstrap.min.css"
     ],
     "minify": {
       "enabled": true,
@@ -12,7 +12,9 @@
   {
     "outputFileName": "wwwroot/bundle/scripts/site.min.js",
     "inputFiles": [
-      "wwwroot/scripts/app.js"
+      "wwwroot/scripts/app.js",
+      "wwwroot/lib/bootstrap/js/bootstrap.min.js",
+      "wwwroot/lib/jquery/jquery.min.js"
     ],
     "minify": {
       "enabled": true,
